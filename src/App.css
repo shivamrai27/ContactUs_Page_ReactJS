@@ -10,22 +10,3 @@ body {
   max-width: 1280px;
   margin: 0 auto;
 }
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 72px;
-}
-
-nav li {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-}
-
-nav ul {
-  display: flex;
-  gap: 2rem;
-
-}
