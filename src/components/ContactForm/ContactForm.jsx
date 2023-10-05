@@ -1,6 +1,6 @@
 
 import Button from '../Button/Button'
-import styles from './Contact.module.css'
+import styles from './ContactForm.module.css'
 const ContactForm = () => {
     return (
         <section className={`${styles.container} `}>
