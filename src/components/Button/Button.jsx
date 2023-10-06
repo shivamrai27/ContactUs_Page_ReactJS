@@ -1,9 +1,9 @@
-import styles from './Button.module.css'
+import styles from './Button.module.css';
 import { MdMessage } from 'react-icons/md';
-function Button() {
+const Button = () => {
     return (
         <Button className={styles.primary_btn}>
-            <MdMessage />Button
+            <MdMessage />Buttonm
         </Button>
     )
 }
