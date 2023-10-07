@@ -1,10 +1,18 @@
 .container {
     display: flex;
-    min-width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
+    margin-top: 40px;
+    align-items: end;
 }
 
 .top_btn {
     display: flex;
     gap: 32px;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
 }
