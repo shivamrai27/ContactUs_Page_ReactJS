@@ -4,7 +4,7 @@ const Navigation = () => {
   return (
     <nav className={`${styles.navigation} container`}>
       <div className="logo">
-        <img src="/images/logo.svg" alt="LOGO" />
+        <img src="/images/logo.svg" style={{width: "100px",height:"100px"}}alt="LOGO" />
       </div>
 
       <ul>
