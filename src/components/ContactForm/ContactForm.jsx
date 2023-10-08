@@ -23,7 +23,7 @@ const ContactForm = () => {
                     </div>
                     <div className={styles.form_control}>
                         <label htmlFor="text">Text</label>
-                        <textarea name="text" rows={10}></textarea>
+                        <textarea name="text" rows={8}></textarea>
                     </div>
                     <div style={{
                         display: "flex",
